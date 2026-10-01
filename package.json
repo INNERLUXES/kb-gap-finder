@@ -1,0 +1,46 @@
+{
+  "name": "kb-gap-finder",
+  "version": "1.0.0",
+  "description": "Compare support tickets with help articles: the questions no article answers, the articles nobody needs, and articles so alike they may contradict each other. Before a customer service chatbot learns from the help center. Reads files, no dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "kb-gap-finder": "bin/kb-gap-finder.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "test:coverage": "node --test --experimental-test-coverage \"test/*.test.js\"",
+    "check": "node tools/check.mjs",
+    "example": "node tools/example.mjs"
+  },
+  "keywords": [
+    "knowledge-base",
+    "help-center",
+    "customer-service",
+    "chatbot",
+    "support-tickets",
+    "tf-idf",
+    "cli"
+  ],
+  "author": "INNERLUXES <info@innerluxes.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INNERLUXES/kb-gap-finder.git"
+  },
+  "homepage": "https://innerluxes.dev/artificial-intelligence/customer-service-chatbot"
+}
