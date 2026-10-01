@@ -1,0 +1,6 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The scoring and the masking decide every line of the report; changes need extra care.
+/src/text.js @innerluxesdev
+/src/analyze.js @innerluxesdev
