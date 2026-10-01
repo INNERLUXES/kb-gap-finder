@@ -1,0 +1,11 @@
+# Made-up support tickets of an online shop. One ticket per line.
+{"id": "t01", "subject": "Where is my order", "body": "My order has not arrived yet, can you track the delivery?"}
+{"id": "t02", "subject": "Track delivery", "body": "Tracking shows nothing for my order 4471923, when will the parcel arrive?"}
+{"id": "t03", "subject": "Return a jacket", "body": "How do I return a jacket that does not fit? I need the return label."}
+{"id": "t04", "subject": "Gift return without receipt", "body": "I got a gift and want to return it but I have no receipt."}
+{"id": "t05", "subject": "Gift without receipt", "body": "Can a gift be returned without the receipt? It was a present."}
+{"id": "t06", "subject": "Returning a present, no receipt", "body": "My aunt sent a present, I have no receipt for the gift return."}
+{"id": "t07", "subject": "Charged twice", "body": "My card was charged twice for one order, please refund the double charge. Contact me at sam@example.com"}
+{"id": "t08", "subject": "Reset password", "body": "I forgot my password and cannot sign in to my account."}
+{"id": "t09", "subject": "Gift cards abroad", "body": "Can I use a gift card in another country store?"}
+{"id": "t10", "subject": "Delivery to Norway", "body": "Do you deliver orders to Norway and how long does delivery take?"}
